@@ -1,0 +1,123 @@
+/* I meny och rubrikenr! */
+h1, h2, h3, h4, h5 {
+	font-family: 'Spirax', cursive;
+}
+
+h1 {
+	font-size: 6rem;
+	margin: 0;
+}
+
+h1.h1-small {
+	font-size: 4rem;
+}
+
+h2 {
+	font-size: 2.2rem;
+	margin: 0;
+}
+
+h2.h2-small {
+	font-size: 1.3rem;
+	margin: 0;
+}
+
+p {
+	font-family: 'Poiret One', cursive;
+	font-size: 1rem;
+	padding: 0;
+	margin: 0;
+}
+
+nav {
+	color: white;
+	background-color: hsla(323, 30%, 14%, 0.8);
+	z-index: 1030;
+}
+
+nav > h1 {
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	color: white;
+}
+
+a:hover {
+	color: lightgray;
+}
+
+.page {
+	height: 100vh;
+	width: 100vw;
+}
+
+#hot {
+	background-image: url(../images/hot.jpg);
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+#juicy {
+	background-image: url(../images/juicy.jpg);
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+#cosy {
+	background-image: url(../images/cosy.jpg);
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+.box-container {
+	padding: 0.7rem;
+}
+
+.box-header {
+	color: maroon;
+	text-align: center;
+}
+
+.red-box, .black-box {
+	padding: 0.7rem;
+	vertical-align: middle;
+}
+
+.red-box {
+	background-color: hsl(0, 100%, 25%);
+	opacity: 0.8;
+	color: white;
+	text-align: center;
+	padding-left: 0.5em;
+	padding-right: 0.5rem;
+}
+
+.red-box.first {
+	
+}
+
+.red-box.second {
+	
+}
+
+.black-box {
+	background-color: hsl(0, 0%, 5%);
+	opacity: 0.9;
+	color: white;
+
+}
+
+.black-right {
+	text-align: right;
+}
+
+.p-big {
+	font-size: 1.3rem;
+}
+
+.separator {
+	height: 0.6rem;
+	background-color: maroon;
+}
